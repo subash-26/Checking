@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 536300,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "Loginpackage.User_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User should enter \"subashrevathi\" and \"$STQR33vMZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"subashrevathi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"$STQR33vMZ\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Loginpackage.User_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User should click login button",
+            "match": {
+              "location": "Loginpackage.User_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should search \"Melbourne\" and \"Double\" and \"Hotel Creek\" and \"2 - Two\" and \"21/09/2021\" and \"22/09/2021\" and \"4 - Four\" and \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"21/09/2021\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"22/09/2021\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 129
+                }
+              ],
+              "location": "Loginpackage.user_should_search(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should select hotel",
+            "match": {
+              "location": "Loginpackage.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should enter the details \"suba\" and \"raj\" and \"7 sth cross street\" and \"5555555555554444\" and \"Master Card\" and \"May\" and \"2022\" and \"333\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suba\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"raj\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"7 sth cross street\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"5555555555554444\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 127
+                },
+                {
+                  "val": "\"333\"",
+                  "offset": 138
+                }
+              ],
+              "location": "Loginpackage.user_should_enter_the_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User get order id",
+            "match": {
+              "location": "Loginpackage.user_get_order_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User print",
+            "match": {
+              "location": "Loginpackage.user_print()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Feature.feature",
+    "tags": []
+  }
+]
